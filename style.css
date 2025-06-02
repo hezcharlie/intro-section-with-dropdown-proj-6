@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Kumbh+Sans:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+--Almos-White: hsl(0, 0%, 98%);
+--Medium-Gray: hsl(0, 0%, 41%);
+--Almost-Black: hsl(0, 0%, 8%);
+}
+body{
+    font-family: "epilogue" , serif;
+    background-color: var(--Almos-White);
+    max-width: 1540px;
+    /* margin 0 auto, was used below to balance the excess space on the screen */
+    margin: 0 auto;
+}
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: none;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 12px;
+    /* border: 1px solid red; */
+}
+/* main */
+/* section-1 */
+#desktop-hero{
+    display: none;
+}
+/* below command was used to fit the image in the section border */
+#section-1 img{
+    max-width: 100%;
+}
+h1{
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: var(--Almost-Black);
+    padding: 20px 0;
+    text-align: center;
+}
+p{
+    color: var(--Medium-Gray);
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+}
